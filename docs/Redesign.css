@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #151515;
+	font-family: 'Questrial', 'Arial', sans-serif;	
+}
+#full_page{
+	position: absolute;
+	width: 1400px;
+	height: 700px;
+	top: 0px;
+	left: 0px;
+}
+
+.title{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	font-weight: 500;
+	font-size: 30px;
+	color: white;
+}
+
+#film_holder{
+	position: absolute;
+	left: 100px;
+	top: 170px;
+	width: 260px;
+	height: 400px;
+}
+
+.film{
+	position: absolute;
+	width: 260px;
+	height: 17px;
+}
+.fname{
+	position: absolute;
+	width: 235px;
+	top: 4px;
+	height: 9px;
+	font-size:10px;
+	text-align: right;
+	color: #d9d9ce
+}
+.fcircle{
+	position: absolute;
+	left: 240px;
+	height: 17px;
+	width: 20px;
+	cursor: pointer;
+}
+
+
+
+.money_holder{
+	position: absolute;
+	top: 151px;  /* 140px - 9px of 3 circles.. no idea why*/
+	width: 50px;
+	height: 420px;
+}
+
+.scircle{
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	color: white;
+}
+
+#mh1{
+	left: 660px;
+}
+
+#mh2{
+	left: 960px;
+}
+
+#mh3{
+	left: 1260px;
+}
+
+.button{
+	position: absolute;
+	border: solid;
+	border-radius: 5px;
+	border-color: #d9d9ce;
+	color: #black;
+	height: 20px;
+	font-size: 12px;
+	background-color: white;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: -3px;
+	top: 630px;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+#clear{
+	left: 250px;
+	width: 50px;
+}
+
+#pb{
+	left: 625px;
+	width: 70px;
+	height: 30px;	
+}
+
+#ur{
+	left: 925px;
+	width: 70px;	
+	height: 30px;	
+}
+
+#wr{
+	left: 1225px;
+	width: 70px;
+	height: 30px;	
+}
+
+.mline{
+	position: absolute;
+	width: 900px;
+	left: 340px;
+	height: 1px;
+	background-color: #606060;
+	opacity: 0.8
+}
+
+#bil3{
+	top: 160px;
+}
+
+#hidcat{
+	position: absolute;
+	left: 1200px;
+	top: 140px;
+	height: 450px;
+	opacity: 0;
+}
